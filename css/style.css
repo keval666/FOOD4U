@@ -1,0 +1,658 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Montserrat;
+    color: #000000;
+    transition: 0.5s;
+}
+
+@font-face {
+    font-family: 'Gabelisa';
+    src: url(../fonts/gabelisa.ttf) format('truetype');
+}
+
+a {
+    text-decoration: none;
+}
+
+/************************************** Header css start **************************************/
+
+header {
+    padding: 20px 30px;
+    background-image: linear-gradient(100deg, #ffe001 70%, #ebe9ac 30%);
+}
+
+.head {
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 200px;
+    min-width: 50px;
+    height: auto;
+}
+
+.top-header .head {
+    display: flex;
+    align-items: center;
+}
+
+.top-header .head-r {
+    margin-left: auto;
+    align-items: center;
+    text-align: right;
+
+}
+
+.top-header .head .text span {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 0px;
+    justify-content: flex-end;
+}
+
+.top-header .head .text label {
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 0px;
+}
+
+.top-header .head .ipone {
+    margin-left: 13px;
+}
+
+.top-header .navigation {
+    /* float: right; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+#check {
+    display: none;
+}
+
+.toggle {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    /* float: right; */
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+}
+
+.top-header ul {
+    /* float: right; */
+    margin-bottom: 0;
+}
+
+.top-header ul li {
+    display: inline-block;
+    margin-left: 3rem;
+}
+
+.top-header ul li a {
+    font-size: 17px;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: 0.5s;
+}
+
+.navigation ul li a.active,
+.navigation ul li a:hover {
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+
+/**** Navbar css end ****/
+
+.bottom-header {
+    padding: 30px 0 0 0;
+}
+
+.bottom-header h3 {
+    font-size: 58px;
+    color: #000000;
+    font-family: "Gabelisa";
+}
+
+.bottom-header h1 {
+    font-size: 90px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Fredericka the Great";
+}
+
+.bottom-header h5 {
+    font-size: 27px;
+    color: #000000;
+    font-weight: 700;
+    padding-bottom: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.bottom-header .order {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.bottom-header .order p {
+    margin: 0 8px 0 0;
+    font-size: 19px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Fredericka the Great";
+}
+
+.bottom-header .order h1 {
+    font-size: 57px;
+    color: #000000;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.orderbtn {
+    font-size: 21px;
+    font-weight: 800;
+    color: #000;
+    border: 1px solid #000;
+    margin-top: 10px;
+    padding: 4px 20px;
+    background: transparent;
+}
+
+.orderbtn:hover {
+    color: #000;
+    transform: scale(1.03);
+    box-shadow: 5px 15px 28px #020202;
+}
+
+.bottom-header .header-img {
+    max-width: 80%;
+    max-height: auto;
+}
+
+/************************************** Header css end **************************************/
+
+/************************************** Choose css start **************************************/
+
+.Choose-section {
+    padding: 80px 0 0 0;
+}
+
+.Choose-section .Choose-contant {
+    text-align: center;
+}
+
+.Choose-section .Choose-contant span {
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.Choose-section .Choose-contant h1 {
+    font-size: 50px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Fredericka the Great";
+}
+
+.Choose-section .Choose-contant p {
+    font-size: 17px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.Choose-section .choose-items {
+    display: flex;
+    text-align: center;
+}
+
+.Choose-section .choose-items .img1,
+.Choose-section .choose-items .img2,
+.Choose-section .choose-items .img3 {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Choose-section .choose-items h5 {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.Choose-section .choose-items p {
+    font-size: 17px;
+    line-height: 21px;
+    margin: 20px 0;
+}
+
+.Choose-section .choose-items a {
+    font-size: 17px;
+    font-weight: 700;
+    background-color: #ffe001;
+    color: #000;
+    padding: 7px 20px;
+}
+
+.bg-color {
+    background-color: #e8e6a9;
+    width: 100%;
+    height: 25%;
+    z-index: -1;
+    top: 20%
+}
+
+/************************************** Choose css end **************************************/
+
+/************************************** Events css end **************************************/
+
+.Events-section {
+    padding: 80px 0 0 0;
+}
+
+.Events-section .Events-contant {
+    text-align: center;
+}
+
+.Events-section .Events-contant span {
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.Events-section .Events-contant h1 {
+    font-size: 50px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Fredericka the Great";
+}
+
+.Events-section .Events-contant p {
+    font-size: 17px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.slider .owl-item.active.center .item {
+    transform: scale(1.15);
+    opacity: 1;
+    background: #ff9966;
+    box-shadow: 5px 15px 28px #020202;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ff5e62, #ff9966);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ff5e62, #ff9966);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
+
+.item {
+    background: #fff;
+    padding: 0px 0px;
+    border-radius: 5px;
+    transform: scale(0.9);
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+.owl-dots .owl-dot.active span {
+    background: #ffe001 !important;
+}
+
+
+
+/************************************** Events css end **************************************/
+
+/************************************** Try css start **************************************/
+
+.Try-section {
+    padding: 80px 0 0 0;
+}
+
+.single-vol .content {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.single-vol .content-details {
+    text-transform: uppercase;
+    position: absolute;
+    padding-left: 1em;
+    padding-top: 1em;
+    width: 50%;
+    top: 0%;
+    left: 3%;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.single-vol .content-details h1 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.single-vol .content-details h5 {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.single-vol .content-details h3 {
+    color: #fff;
+    font-size: 33px;
+    font-weight: 700;
+}
+
+/************************************** Try css end **************************************/
+
+
+/************************************** Book table css start **************************************/
+
+.Book-section {
+    padding: 80px 0;
+}
+
+.Book-section .Book-contant {
+    text-align: center;
+}
+
+.Book-section .Book-contant span {
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.Book-section .Book-contant h1 {
+    font-size: 50px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Fredericka the Great";
+}
+
+.book-form {
+    width: 70%;
+    margin-top: 50px;
+}
+
+.Book-section .book-form input {
+    margin-top: 1rem;
+    padding-left: 1rem;
+    height: 50px;
+    border: 1px solid #0000003d;
+    border-radius: 5px;
+}
+
+.Book-section .book-form button {
+    margin-top: 1rem;
+    padding-left: 1rem;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffe001;
+    font-size: inherit;
+    font-weight: 700;
+}
+
+
+/************************************** Book table css end **************************************/
+
+
+/************************************** Footer css start **************************************/
+
+footer {
+    padding: 80px 0 0 0;
+    background-color: #ff5e62;
+    background-image: url(../img/footer.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+.footer-content {
+    margin-top: 40px;
+}
+
+.footer-content p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+}
+
+.footer-content p i {
+    width: 25px;
+    text-align: center;
+    margin-right: 10px;
+    color: #ffe001;
+    font-size: 25px;
+}
+
+.footer-3 {
+    margin-top: 50px;
+}
+
+.footer-3 p {
+    font-size: 17px;
+    color: #fff;
+}
+
+.footer-3 a{
+    margin-left: 1rem;
+}
+.footer-3 i {
+    font-size: 17px;
+    color: #fff;
+}
+
+/************************************** Footer css end **************************************/
+
+
+
+/************************************** Media query start **************************************/
+/****** Navbar Query Start ******/
+@media (max-width:767px) {
+    header {
+        padding: 10px 20px;
+    }
+
+    .top-header .head .head-r .text,
+    .top-header .head .head-r .ipone {
+        display: none;
+    }
+
+    .toggle {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 5%;
+    }
+
+    .top-header ul {
+        position: fixed;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background: #e8e6a9;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        z-index: 1;
+    }
+
+    .top-header ul li {
+        display: block;
+        margin: 0;
+        line-height: 50px;
+    }
+
+    .top-header ul li a {
+        font-size: 20px;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+}
+
+/****** Navbar query end ******/
+
+/****** Phone query start max767******/
+@media (max-width:767px) {
+    .bottom-header h3 {
+        font-size: 40px;
+    }
+
+    .bottom-header h1 {
+        font-size: 54px;
+    }
+
+    .bottom-header h5 {
+        font-size: 18px;
+    }
+
+    .bottom-header .order p {
+        font-size: 15px;
+    }
+
+    .bottom-header .order h1 {
+        font-size: 55px;
+    }
+
+    .orderbtn {
+        font-size: 18px;
+    }
+
+    .header-img {
+        display: none;
+    }
+
+    .Choose-section {
+        padding: 40px 0;
+    }
+
+    .bg-color {
+        display: none;
+    }
+
+    .Events-section {
+        padding: 40px 0 0 0;
+    }
+
+    .Try-section {
+        padding: 40px 0 0 0;
+    }
+
+    .single-vol .content-details h1 {
+        font-size: 17px;
+    }
+
+    .single-vol .content-details h5 {
+        font-size: 23px;
+    }
+
+    .single-vol .content-details h3 {
+        font-size: 17px;
+    }
+
+    .Book-section {
+        padding: 40px 0;
+    }
+
+    .book-form {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    footer {
+        padding: 40px 0 0 0;
+    }
+
+}
+
+/****** Phone query end******/
+
+/****** Tablet query start max1023******/
+@media (min-width:768px) and (max-width:1023px) {
+    .bottom-header h3 {
+        font-size: 45px;
+    }
+
+    .bottom-header h1 {
+        font-size: 66px;
+    }
+
+    .bottom-header h5 {
+        font-size: 24px;
+    }
+
+    .bottom-header .order p {
+        font-size: 16px;
+    }
+
+    .Choose-section {
+        padding: 40px 0;
+    }
+
+    .bg-color {
+        top: 15%
+    }
+
+    .Events-section {
+        padding: 40px 0 0 0;
+    }
+
+    .Try-section {
+        padding: 40px 0 0 0;
+    }
+
+    .single-vol .content-details h1 {
+        font-size: 18px;
+    }
+
+    .single-vol .content-details h5 {
+        font-size: 25px;
+    }
+
+    .single-vol .content-details h3 {
+        font-size: 20px;
+    }
+
+    .Book-section {
+        padding: 40px 0;
+    }
+
+    .book-form {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    footer {
+        padding: 40px 0 0 0;
+    }
+
+}
+
+/****** Tablet query end******/
+
+/****** Laptop query start min769******/
+@media (min-width:1024px) {}
+
+/****** Laptop query end******/
+
+/************************************** Media query end **************************************/
